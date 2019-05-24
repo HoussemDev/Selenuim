@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="65212" started-at="2019-05-24T13:10:30Z" finished-at="2019-05-24T13:11:35Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="65212" started-at="2019-05-24T13:10:30Z" finished-at="2019-05-24T13:11:35Z">
+      <class name="com.viasyst2.viasyst2.organisationPageTest">
+        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:com.viasyst2.viasyst2.organisationPageTest@604ed9f0]" name="login" is-config="true" duration-ms="13134" started-at="2019-05-24T14:10:30Z" finished-at="2019-05-24T14:10:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="FAIL" signature="clickOnOrgansiationMainMenu()[pri:1, instance:com.viasyst2.viasyst2.organisationPageTest@604ed9f0]" name="clickOnOrgansiationMainMenu" duration-ms="12411" started-at="2019-05-24T14:10:43Z" finished-at="2019-05-24T14:10:56Z">
+          <exception class="org.openqa.selenium.InvalidElementStateException">
+            <message>
+              <![CDATA[invalid element state: Element must be user-editable in order to clear it.
+  (Session info: chrome=74.0.3729.157)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 122 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-VP8FAF2', ip: '172.22.153.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:64559}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}), userDataDir=C:\Users\Sony\AppData\Local\Temp\scoped_dir15392_31238}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=74.0.3729.157, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 666f2b06d1b1f749efa94063ab4e2341]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidElementStateException: invalid element state: Element must be user-editable in order to clear it.
+  (Session info: chrome=74.0.3729.157)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 122 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-VP8FAF2', ip: '172.22.153.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:64559}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}), userDataDir=C:\Users\Sony\AppData\Local\Temp\scoped_dir15392_31238}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=74.0.3729.157, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 666f2b06d1b1f749efa94063ab4e2341
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:116)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:331)
+	at com.sun.proxy.$Proxy9.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:360)
+	at com.viasyst2.viasyst2.organisationPageTest.clickOnOrgansiationMainMenu(organisationPageTest.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidElementStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnOrgansiationMainMenu -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.viasyst2.viasyst2.organisationPageTest@604ed9f0]" name="tearDown" is-config="true" duration-ms="1278" started-at="2019-05-24T14:10:56Z" finished-at="2019-05-24T14:10:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:com.viasyst2.viasyst2.organisationPageTest@604ed9f0]" name="login" is-config="true" duration-ms="10300" started-at="2019-05-24T14:10:57Z" finished-at="2019-05-24T14:11:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="titleTest()[pri:2, instance:com.viasyst2.viasyst2.organisationPageTest@604ed9f0]" name="titleTest" duration-ms="46" started-at="2019-05-24T14:11:07Z" finished-at="2019-05-24T14:11:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.viasyst2.viasyst2.organisationPageTest@604ed9f0]" name="tearDown" is-config="true" duration-ms="1094" started-at="2019-05-24T14:11:07Z" finished-at="2019-05-24T14:11:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:com.viasyst2.viasyst2.organisationPageTest@604ed9f0]" name="login" is-config="true" duration-ms="10894" started-at="2019-05-24T14:11:08Z" finished-at="2019-05-24T14:11:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="urlCheck()[pri:3, instance:com.viasyst2.viasyst2.organisationPageTest@604ed9f0]" name="urlCheck" duration-ms="420" started-at="2019-05-24T14:11:19Z" finished-at="2019-05-24T14:11:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlCheck -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.viasyst2.viasyst2.organisationPageTest@604ed9f0]" name="tearDown" is-config="true" duration-ms="1195" started-at="2019-05-24T14:11:20Z" finished-at="2019-05-24T14:11:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:com.viasyst2.viasyst2.organisationPageTest@604ed9f0]" name="login" is-config="true" duration-ms="12260" started-at="2019-05-24T14:11:21Z" finished-at="2019-05-24T14:11:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="logoCheck()[pri:4, instance:com.viasyst2.viasyst2.organisationPageTest@604ed9f0]" name="logoCheck" duration-ms="841" started-at="2019-05-24T14:11:33Z" finished-at="2019-05-24T14:11:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoCheck -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.viasyst2.viasyst2.organisationPageTest@604ed9f0]" name="tearDown" is-config="true" duration-ms="1277" started-at="2019-05-24T14:11:34Z" finished-at="2019-05-24T14:11:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.viasyst2.viasyst2.organisationPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

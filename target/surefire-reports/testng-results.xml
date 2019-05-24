@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.viasyst2.viasyst2.organisationPageTest" duration-ms="29316" started-at="2019-05-24T13:26:21Z" finished-at="2019-05-24T13:26:50Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="29316" started-at="2019-05-24T13:26:21Z" finished-at="2019-05-24T13:26:50Z">
+      <class name="com.viasyst2.viasyst2.organisationPageTest">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.viasyst2.viasyst2.organisationPageTest@1e67b872]" name="login" is-config="true" duration-ms="14460" started-at="2019-05-24T14:26:21Z" finished-at="2019-05-24T14:26:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="clickOnOrgansiationMainMenu()[pri:1, instance:com.viasyst2.viasyst2.organisationPageTest@1e67b872]" name="clickOnOrgansiationMainMenu" duration-ms="13415" started-at="2019-05-24T14:26:35Z" finished-at="2019-05-24T14:26:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnOrgansiationMainMenu -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.viasyst2.viasyst2.organisationPageTest@1e67b872]" name="tearDown" is-config="true" duration-ms="1416" started-at="2019-05-24T14:26:49Z" finished-at="2019-05-24T14:26:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.viasyst2.viasyst2.organisationPageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.viasyst2.viasyst2.organisationPageTest -->
+</testng-results>
