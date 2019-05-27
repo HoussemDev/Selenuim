@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="com.viasyst2.viasyst2.organisationPageTest" duration-ms="18569" started-at="2019-05-27T15:48:47Z" finished-at="2019-05-27T15:49:06Z">
+  <suite name="com.viasyst2.viasyst2.organisationPageTest" duration-ms="15965" started-at="2019-05-27T16:09:41Z" finished-at="2019-05-27T16:09:56Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="18569" started-at="2019-05-27T15:48:47Z" finished-at="2019-05-27T15:49:06Z">
+    <test name="Command line test" duration-ms="15965" started-at="2019-05-27T16:09:41Z" finished-at="2019-05-27T16:09:56Z">
       <class name="com.viasyst2.viasyst2.organisationPageTest">
-        <test-method status="PASS" signature="startReport()[pri:0, instance:com.viasyst2.viasyst2.organisationPageTest@bae7dc0]" name="startReport" is-config="true" duration-ms="265" started-at="2019-05-27T16:48:47Z" finished-at="2019-05-27T16:48:48Z">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.viasyst2.viasyst2.organisationPageTest@bae7dc0]" name="startReport" is-config="true" duration-ms="398" started-at="2019-05-27T17:09:41Z" finished-at="2019-05-27T17:09:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.viasyst2.viasyst2.organisationPageTest@bae7dc0]" name="login" is-config="true" duration-ms="5253" started-at="2019-05-27T16:48:48Z" finished-at="2019-05-27T16:48:53Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.viasyst2.viasyst2.organisationPageTest@bae7dc0]" name="login" is-config="true" duration-ms="3930" started-at="2019-05-27T17:09:41Z" finished-at="2019-05-27T17:09:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="clickOnOrgansiationMainMenu()[pri:1, instance:com.viasyst2.viasyst2.organisationPageTest@bae7dc0]" name="clickOnOrgansiationMainMenu" duration-ms="12329" started-at="2019-05-27T16:48:53Z" finished-at="2019-05-27T16:49:05Z">
+        <test-method status="PASS" signature="clickOnOrgansiationMainMenu()[pri:1, instance:com.viasyst2.viasyst2.organisationPageTest@bae7dc0]" name="clickOnOrgansiationMainMenu" duration-ms="10887" started-at="2019-05-27T17:09:45Z" finished-at="2019-05-27T17:09:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnOrgansiationMainMenu -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.viasyst2.viasyst2.organisationPageTest@bae7dc0]" name="getResult" is-config="true" duration-ms="14" started-at="2019-05-27T16:49:05Z" finished-at="2019-05-27T16:49:05Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.viasyst2.viasyst2.organisationPageTest@bae7dc0]" name="getResult" is-config="true" duration-ms="24" started-at="2019-05-27T17:09:56Z" finished-at="2019-05-27T17:09:56Z">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.viasyst2.viasyst2.organisationPageTest@bae7dc0]" name="tearDown" is-config="true" duration-ms="683" started-at="2019-05-27T16:49:05Z" finished-at="2019-05-27T16:49:06Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.viasyst2.viasyst2.organisationPageTest@bae7dc0]" name="tearDown" is-config="true" duration-ms="678" started-at="2019-05-27T17:09:56Z" finished-at="2019-05-27T17:09:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
