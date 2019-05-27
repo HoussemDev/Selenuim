@@ -7,11 +7,12 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 
-
 import com.viasyst2.util.WebListener;
+
+
+
 
 public class TestBase {
 
@@ -19,7 +20,9 @@ public class TestBase {
 	public static Properties prop;
 	public static EventFiringWebDriver e_driver;
 	public static WebListener webListener;
-
+	
+	
+	
 	public TestBase() throws IOException {
 		prop = new Properties();
 
@@ -49,6 +52,9 @@ public class TestBase {
 		driver.get(prop.getProperty("URL"));
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		
+
+	 
 
 	}
 
